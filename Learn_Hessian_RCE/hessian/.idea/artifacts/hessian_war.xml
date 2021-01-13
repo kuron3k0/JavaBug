@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hessian:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/hessian_war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hessian" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="hessian/web/Web" />
+    </root>
+  </artifact>
+</component>
